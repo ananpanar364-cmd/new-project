@@ -1,0 +1,42 @@
+class Person {
+String name = "Anan";
+
+void showDetails() {
+System.out.println("Name: " + name);
+}
+}
+class Doctor extends Person {
+void work() {
+System.out.println(name + " is treating patients in a hospital.");
+  }
+}
+class Teacher extends Person {
+void work() {
+System.out.println(name +" is teaching students in a school.");
+}
+}
+class Engineer extends Person {
+void work() {
+System.out.println(name +" is designing and building systems.");
+}
+}
+public class Main {
+public static void main(String[] args) {
+
+Doctor d = new Doctor();
+Teacher t = new Teacher();
+Engineer e = new Engineer();
+System.out.println("Doctor:");
+d. showDetails();
+d.work();
+
+System.out.println("\nTeacher:");
+t. showDetails();
+t.work();
+
+System.out.println("\nEngineer:");
+e. showDetails();
+e.work();
+}
+}
+
