@@ -1,0 +1,23 @@
+class LibraryBook {
+String bookName;
+String author;
+double price;
+
+LibraryBook(String bookName, String author, double price){
+this.bookName = bookName;
+this.author = author;
+this.price = price;
+}
+void display() {
+System.out.println("Book Name: " + bookName);
+System.out.println("Author: " + author);
+System.out.println("Price: " + price);
+}
+}
+public class Main {
+Run | Debug
+public static void main(String[] args) {
+LibraryBook b1 = new LibraryBook(bookName: "Java Programming", author: "James Gosling", price: 550.0);
+b1.display();
+}
+}
