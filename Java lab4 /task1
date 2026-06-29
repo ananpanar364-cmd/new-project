@@ -1,1 +1,25 @@
+class car {
+String name;
+String model;
+int price;
 
+Car(String n, String m, int p) {
+name = n;
+model = m;
+price = p;
+]
+
+void display() {
+System.out.println("Car Name: " + name);
+System.out.println("Car Model: " + model);
+System.out.println("Car Price: " + price);
+}
+}
+public class CarTest {
+
+public static void main(String[] args) {
+
+Car c1 = new Car(n: "Toyota", m: "Corolla", p: 2000000);
+c1.display();
+}
+}
