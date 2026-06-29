@@ -1,1 +1,16 @@
+public class Anan {
 
+public static void main(String[] args) {
+
+String Name = "Anan Barua";
+String StudentId = "E253006";
+int Age = 21;
+String Phone = "0162780 ... ";
+String Email = "anan@gmail.com";
+String Address = "Ramu, Cox'sbazar";
+
+System.out.printf(
+"Name :%s\nStudentId :%s\nAge :%d\nPhone :%s\nEmail :%s\nAddress :%s\n",
+Name, StudentId, Age, Phone, Email, Address):
+}
+}
