@@ -1,1 +1,27 @@
+import java.util.Scanner;
+public class EvenNumberArray {
+public static void main(String[] args)
+Scanner input - new Scanner(System.in);
+int start, end;
+System.out.print("Enter starting number: ");
+start = input.nextInt();
 
+System.out.print("Enter ending number: ");
+end = input.nextInt();
+
+int size = end - start + 1;
+int[] numbers = new int[size];
+
+for (int i = o; i < size; i++) {
+numbers[i] = start + i;
+}
+System.out.println("Even numbers in the range:");
+
+for (int i = o; i < size; i++) {
+if (numbers[i] % 2 -- 0) {
+System.out.print(numbers[i] +" ");
+                 }
+          }
+       }
+   }
+}
